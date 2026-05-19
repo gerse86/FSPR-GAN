@@ -1,0 +1,140 @@
+---------------- Environment Info ----------------
+CUDA Version: nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2023 NVIDIA Corporation
+Built on Tue_Aug_15_22:02:13_PDT_2023
+Cuda compilation tools, release 12.2, V12.2.140
+Build cuda_12.2.r12.2/compiler.33191640_0
+Python Version: Python 3.11.5
+GPU Device: GPU 0: NVIDIA A100-SXM4-40GB (UUID: GPU-d7981a62-4c37-8f03-75c9-78e44120b2f6)
+BLIS 线程数: 1
+OpenMP 线程数: 8
+验证集已全量加载，共 80 个样本
+开始训练，设备: cuda
+体积尺寸: 64x64x64
+批次大小: 20, 总步数: 500000
+Step 100: Discriminator Loss = 1.7164, Generator Loss = 0.2865, D Fake Score = 1.1380, D Real Score = 1.3239, D Val Score = 1.3254
+进度: 100/500000 | 平均单步耗时: 0.1857 秒/步 | 剩余时间预估: 25.79 小时
+Step 200: Discriminator Loss = 0.9490, Generator Loss = 0.7842, D Fake Score = 0.1641, D Real Score = 2.5116, D Val Score = 2.4015
+进度: 200/500000 | 平均单步耗时: 0.9274 秒/步 | 剩余时间预估: 128.75 小时
+Step 300: Discriminator Loss = 2.5176, Generator Loss = 2.1503, D Fake Score = 1.8236, D Real Score = 2.4983, D Val Score = 2.4718
+进度: 300/500000 | 平均单步耗时: 0.1227 秒/步 | 剩余时间预估: 17.03 小时
+Step 400: Discriminator Loss = 0.7138, Generator Loss = 2.7673, D Fake Score = -2.0993, D Real Score = 1.1368, D Val Score = 0.8825
+进度: 400/500000 | 平均单步耗时: 0.9288 秒/步 | 剩余时间预估: 128.90 小时
+Step 500: Discriminator Loss = 1.2262, Generator Loss = 6.4525, D Fake Score = -5.5266, D Real Score = -1.6003, D Val Score = -1.6561
+进度: 500/500000 | 平均单步耗时: 0.1233 秒/步 | 剩余时间预估: 17.11 小时
+Step 600: Discriminator Loss = 0.5007, Generator Loss = 2.9234, D Fake Score = -2.0356, D Real Score = 2.2145, D Val Score = 2.2372
+进度: 600/500000 | 平均单步耗时: 0.9292 秒/步 | 剩余时间预估: 128.90 小时
+Step 700: Discriminator Loss = 0.2763, Generator Loss = 2.6491, D Fake Score = -1.6033, D Real Score = 2.6370, D Val Score = 2.6279
+进度: 700/500000 | 平均单步耗时: 0.1385 秒/步 | 剩余时间预估: 19.22 小时
+Step 800: Discriminator Loss = 1.1311, Generator Loss = 4.2639, D Fake Score = -2.4234, D Real Score = 1.6950, D Val Score = 1.7065
+进度: 800/500000 | 平均单步耗时: 0.9542 秒/步 | 剩余时间预估: 132.31 小时
+Step 900: Discriminator Loss = 0.5067, Generator Loss = 2.8271, D Fake Score = -1.9637, D Real Score = 1.5937, D Val Score = 2.1389
+进度: 900/500000 | 平均单步耗时: 0.1227 秒/步 | 剩余时间预估: 17.01 小时
+Step 1000: Discriminator Loss = 1.4477, Generator Loss = 1.9251, D Fake Score = -1.4392, D Real Score = 0.6842, D Val Score = 1.0067
+进度: 1000/500000 | 平均单步耗时: 0.9287 秒/步 | 剩余时间预估: 128.73 小时
+Step 1100: Discriminator Loss = 0.7342, Generator Loss = 1.4484, D Fake Score = -0.9551, D Real Score = 1.7425, D Val Score = 1.4370
+进度: 1100/500000 | 平均单步耗时: 0.1219 秒/步 | 剩余时间预估: 16.90 小时
+Step 1200: Discriminator Loss = 1.0088, Generator Loss = 1.2221, D Fake Score = -0.6183, D Real Score = 2.4279, D Val Score = 2.3359
+进度: 1200/500000 | 平均单步耗时: 0.9285 秒/步 | 剩余时间预估: 128.65 小时
+Step 1300: Discriminator Loss = 0.9363, Generator Loss = 1.2914, D Fake Score = -0.7862, D Real Score = 0.8538, D Val Score = 0.7679
+进度: 1300/500000 | 平均单步耗时: 0.1229 秒/步 | 剩余时间预估: 17.02 小时
+Step 1400: Discriminator Loss = 1.6806, Generator Loss = 3.5429, D Fake Score = -3.1424, D Real Score = -0.2391, D Val Score = -0.5261
+进度: 1400/500000 | 平均单步耗时: 1.0353 秒/步 | 剩余时间预估: 143.39 小时
+Step 1500: Discriminator Loss = 0.7683, Generator Loss = 1.0521, D Fake Score = 0.0583, D Real Score = 2.0058, D Val Score = 1.5759
+进度: 1500/500000 | 平均单步耗时: 0.1217 秒/步 | 剩余时间预估: 16.85 小时
+Step 1600: Discriminator Loss = 1.5698, Generator Loss = 2.3989, D Fake Score = -2.1396, D Real Score = -0.3346, D Val Score = -0.7308
+进度: 1600/500000 | 平均单步耗时: 1.9559 秒/步 | 剩余时间预估: 270.79 小时
+Step 1700: Discriminator Loss = 1.0614, Generator Loss = 3.3155, D Fake Score = -2.4866, D Real Score = 0.9959, D Val Score = 0.7519
+进度: 1700/500000 | 平均单步耗时: 0.1253 秒/步 | 剩余时间预估: 17.34 小时
+Step 1800: Discriminator Loss = 1.2721, Generator Loss = 0.8049, D Fake Score = 0.0960, D Real Score = 1.5293, D Val Score = 1.2349
+进度: 1800/500000 | 平均单步耗时: 0.9291 秒/步 | 剩余时间预估: 128.57 小时
+Step 1900: Discriminator Loss = 1.4097, Generator Loss = 1.9433, D Fake Score = -0.8516, D Real Score = 0.5832, D Val Score = 0.3762
+进度: 1900/500000 | 平均单步耗时: 0.1239 秒/步 | 剩余时间预估: 17.15 小时
+Step 2000: Discriminator Loss = 1.4606, Generator Loss = 0.7500, D Fake Score = 0.1343, D Real Score = 2.0420, D Val Score = 1.7351
+进度: 2000/500000 | 平均单步耗时: 0.9287 秒/步 | 剩余时间预估: 128.46 小时
+Step 2100: Discriminator Loss = 1.2427, Generator Loss = 1.0903, D Fake Score = 0.1697, D Real Score = 1.8214, D Val Score = 1.3936
+进度: 2100/500000 | 平均单步耗时: 0.1223 秒/步 | 剩余时间预估: 16.91 小时
+Step 2200: Discriminator Loss = 1.6265, Generator Loss = 0.8302, D Fake Score = 0.3108, D Real Score = 2.2299, D Val Score = 1.9039
+进度: 2200/500000 | 平均单步耗时: 0.9295 秒/步 | 剩余时间预估: 128.53 小时
+Step 2300: Discriminator Loss = 0.7866, Generator Loss = 1.5446, D Fake Score = -1.3028, D Real Score = 0.4379, D Val Score = -0.3533
+进度: 2300/500000 | 平均单步耗时: 0.1227 秒/步 | 剩余时间预估: 16.96 小时
+Step 2400: Discriminator Loss = 1.7214, Generator Loss = 1.2772, D Fake Score = -0.9353, D Real Score = 1.4275, D Val Score = 0.9471
+进度: 2400/500000 | 平均单步耗时: 0.9281 秒/步 | 剩余时间预估: 128.29 小时
+Step 2500: Discriminator Loss = 0.8374, Generator Loss = 0.9284, D Fake Score = -0.2329, D Real Score = 2.0053, D Val Score = 1.4768
+进度: 2500/500000 | 平均单步耗时: 0.1218 秒/步 | 剩余时间预估: 16.83 小时
+Step 2600: Discriminator Loss = 1.4455, Generator Loss = 1.5231, D Fake Score = -0.3829, D Real Score = 1.3597, D Val Score = 0.7349
+进度: 2600/500000 | 平均单步耗时: 1.2293 秒/步 | 剩余时间预估: 169.85 小时
+Step 2700: Discriminator Loss = 0.7080, Generator Loss = 1.6991, D Fake Score = -0.5738, D Real Score = 1.0528, D Val Score = 0.8493
+进度: 2700/500000 | 平均单步耗时: 0.1223 秒/步 | 剩余时间预估: 16.89 小时
+Step 2800: Discriminator Loss = 1.5194, Generator Loss = 2.1047, D Fake Score = -1.1398, D Real Score = 1.3464, D Val Score = 0.3013
+进度: 2800/500000 | 平均单步耗时: 0.9281 秒/步 | 剩余时间预估: 128.18 小时
+Step 2900: Discriminator Loss = 0.6059, Generator Loss = 1.6960, D Fake Score = -0.4532, D Real Score = 1.7259, D Val Score = 0.5537
+进度: 2900/500000 | 平均单步耗时: 0.1223 秒/步 | 剩余时间预估: 16.88 小时
+Step 3000: Discriminator Loss = 1.4885, Generator Loss = 1.7233, D Fake Score = -0.4033, D Real Score = 2.1412, D Val Score = 1.2133
+进度: 3000/500000 | 平均单步耗时: 0.9945 秒/步 | 剩余时间预估: 137.30 小时
+Step 3100: Discriminator Loss = 0.7709, Generator Loss = 2.0225, D Fake Score = -0.9287, D Real Score = 1.7776, D Val Score = 0.4648
+进度: 3100/500000 | 平均单步耗时: 0.2662 秒/步 | 剩余时间预估: 36.75 小时
+Step 3200: Discriminator Loss = 1.5631, Generator Loss = 1.5114, D Fake Score = -1.8452, D Real Score = 1.7881, D Val Score = 0.7208
+进度: 3200/500000 | 平均单步耗时: 0.9280 秒/步 | 剩余时间预估: 128.07 小时
+Step 3300: Discriminator Loss = 0.5002, Generator Loss = 2.9309, D Fake Score = -1.5184, D Real Score = 1.6949, D Val Score = 0.4702
+进度: 3300/500000 | 平均单步耗时: 0.1219 秒/步 | 剩余时间预估: 16.82 小时
+Step 3400: Discriminator Loss = 1.6810, Generator Loss = 1.7568, D Fake Score = -0.5307, D Real Score = 2.1802, D Val Score = 0.9299
+进度: 3400/500000 | 平均单步耗时: 0.9285 秒/步 | 剩余时间预估: 128.08 小时
+Step 3500: Discriminator Loss = 0.8139, Generator Loss = 1.7611, D Fake Score = -1.4814, D Real Score = 1.7080, D Val Score = -0.0696
+进度: 3500/500000 | 平均单步耗时: 0.1215 秒/步 | 剩余时间预估: 16.76 小时
+Step 3600: Discriminator Loss = 2.2020, Generator Loss = 1.0330, D Fake Score = -0.1206, D Real Score = 3.1320, D Val Score = 1.0845
+进度: 3600/500000 | 平均单步耗时: 1.1998 秒/步 | 剩余时间预估: 165.44 小时
+Step 3700: Discriminator Loss = 0.4675, Generator Loss = 2.8159, D Fake Score = -2.6353, D Real Score = 1.4572, D Val Score = -0.1552
+进度: 3700/500000 | 平均单步耗时: 0.1229 秒/步 | 剩余时间预估: 16.94 小时
+Step 3800: Discriminator Loss = 1.8318, Generator Loss = 2.5270, D Fake Score = -1.5581, D Real Score = 2.2168, D Val Score = 0.9210
+进度: 3800/500000 | 平均单步耗时: 0.9301 秒/步 | 剩余时间预估: 128.20 小时
+Step 3900: Discriminator Loss = 0.2755, Generator Loss = 2.2737, D Fake Score = -2.3203, D Real Score = 2.0571, D Val Score = 0.1915
+进度: 3900/500000 | 平均单步耗时: 0.1212 秒/步 | 剩余时间预估: 16.70 小时
+Step 4000: Discriminator Loss = 2.3057, Generator Loss = 3.8487, D Fake Score = -3.3413, D Real Score = -0.1819, D Val Score = -1.8675
+进度: 4000/500000 | 平均单步耗时: 1.0871 秒/步 | 剩余时间预估: 149.78 小时
+Step 4100: Discriminator Loss = 0.4008, Generator Loss = 2.4402, D Fake Score = -0.7996, D Real Score = 3.0062, D Val Score = 0.5955
+进度: 4100/500000 | 平均单步耗时: 0.1249 秒/步 | 剩余时间预估: 17.21 小时
+Step 4200: Discriminator Loss = 2.1303, Generator Loss = 4.0862, D Fake Score = -2.9755, D Real Score = 0.3617, D Val Score = -1.1480
+进度: 4200/500000 | 平均单步耗时: 0.9299 秒/步 | 剩余时间预估: 128.07 小时
+Step 4300: Discriminator Loss = 0.3856, Generator Loss = 1.9937, D Fake Score = -1.4888, D Real Score = 3.0586, D Val Score = 0.8672
+进度: 4300/500000 | 平均单步耗时: 0.1222 秒/步 | 剩余时间预估: 16.83 小时
+Step 4400: Discriminator Loss = 1.7109, Generator Loss = 3.2714, D Fake Score = -3.2230, D Real Score = 1.8609, D Val Score = -0.5105
+进度: 4400/500000 | 平均单步耗时: 0.9524 秒/步 | 剩余时间预估: 131.11 小时
+Step 4500: Discriminator Loss = 0.4991, Generator Loss = 2.1535, D Fake Score = -0.8599, D Real Score = 3.8626, D Val Score = 1.1416
+进度: 4500/500000 | 平均单步耗时: 0.1227 秒/步 | 剩余时间预估: 16.89 小时
+Step 4600: Discriminator Loss = 3.5602, Generator Loss = 6.2471, D Fake Score = -5.1236, D Real Score = -1.4346, D Val Score = -3.8628
+进度: 4600/500000 | 平均单步耗时: 0.9336 秒/步 | 剩余时间预估: 128.47 小时
+Step 4700: Discriminator Loss = 0.3717, Generator Loss = 2.0446, D Fake Score = -1.5789, D Real Score = 2.7543, D Val Score = 0.5356
+进度: 4700/500000 | 平均单步耗时: 0.1220 秒/步 | 剩余时间预估: 16.78 小时
+Step 4800: Discriminator Loss = 1.8242, Generator Loss = 2.7335, D Fake Score = -2.9308, D Real Score = 2.0275, D Val Score = -0.3232
+进度: 4800/500000 | 平均单步耗时: 0.9287 秒/步 | 剩余时间预估: 127.75 小时
+Step 4900: Discriminator Loss = 0.5848, Generator Loss = 5.8106, D Fake Score = -4.9801, D Real Score = 1.1693, D Val Score = -1.9699
+进度: 4900/500000 | 平均单步耗时: 0.1217 秒/步 | 剩余时间预估: 16.74 小时
+Step 5000: Discriminator Loss = 1.7857, Generator Loss = 3.5798, D Fake Score = -3.7924, D Real Score = 2.5402, D Val Score = -1.0928
+进度: 5000/500000 | 平均单步耗时: 0.9810 秒/步 | 剩余时间预估: 134.89 小时
+Step 5100: Discriminator Loss = 0.2829, Generator Loss = 2.4002, D Fake Score = -1.4461, D Real Score = 3.2973, D Val Score = 0.4840
+进度: 5100/500000 | 平均单步耗时: 0.1218 秒/步 | 剩余时间预估: 16.74 小时
+Step 5200: Discriminator Loss = 1.9675, Generator Loss = 3.9766, D Fake Score = -3.9055, D Real Score = 2.1465, D Val Score = -1.8323
+进度: 5200/500000 | 平均单步耗时: 0.9286 秒/步 | 剩余时间预估: 127.63 小时
+Step 5300: Discriminator Loss = 0.2928, Generator Loss = 2.3411, D Fake Score = -2.3781, D Real Score = 2.6515, D Val Score = -0.4685
+进度: 5300/500000 | 平均单步耗时: 0.1217 秒/步 | 剩余时间预估: 16.73 小时
+Step 5400: Discriminator Loss = 2.3632, Generator Loss = 3.1611, D Fake Score = -1.6454, D Real Score = 3.8677, D Val Score = -0.0629
+进度: 5400/500000 | 平均单步耗时: 0.9294 秒/步 | 剩余时间预估: 127.68 小时
+Step 5500: Discriminator Loss = 1.9578, Generator Loss = 7.6218, D Fake Score = -7.2111, D Real Score = -0.3420, D Val Score = -4.2686
+进度: 5500/500000 | 平均单步耗时: 0.1237 秒/步 | 剩余时间预估: 16.99 小时
+Step 5600: Discriminator Loss = 1.9887, Generator Loss = 3.3575, D Fake Score = -2.5730, D Real Score = 2.0273, D Val Score = -1.0967
+进度: 5600/500000 | 平均单步耗时: 0.9285 秒/步 | 剩余时间预估: 127.51 小时
+Step 5700: Discriminator Loss = 0.5101, Generator Loss = 4.7518, D Fake Score = -3.9039, D Real Score = 0.4419, D Val Score = -2.5899
+进度: 5700/500000 | 平均单步耗时: 0.1247 秒/步 | 剩余时间预估: 17.12 小时
+Step 5800: Discriminator Loss = 2.0039, Generator Loss = 4.7169, D Fake Score = -2.7628, D Real Score = 2.2966, D Val Score = -1.7377
+进度: 5800/500000 | 平均单步耗时: 1.0125 秒/步 | 剩余时间预估: 139.00 小时
+Step 5900: Discriminator Loss = 0.3339, Generator Loss = 3.0900, D Fake Score = -3.0353, D Real Score = 2.8638, D Val Score = -0.9521
+进度: 5900/500000 | 平均单步耗时: 0.1214 秒/步 | 剩余时间预估: 16.66 小时
+Step 6000: Discriminator Loss = 2.4292, Generator Loss = 6.5326, D Fake Score = -4.4248, D Real Score = 1.2803, D Val Score = -3.1947
+进度: 6000/500000 | 平均单步耗时: 0.9309 秒/步 | 剩余时间预估: 127.75 小时
+Step 6100: Discriminator Loss = 0.3474, Generator Loss = 3.9405, D Fake Score = -3.2949, D Real Score = 2.4208, D Val Score = -1.9070
+进度: 6100/500000 | 平均单步耗时: 0.1329 秒/步 | 剩余时间预估: 18.24 小时
+Step 6200: Discriminator Loss = 3.3361, Generator Loss = 2.9599, D Fake Score = -1.9070, D Real Score = 4.6003, D Val Score = 0.2121
+进度: 6200/500000 | 平均单步耗时: 0.9362 秒/步 | 剩余时间预估: 128.42 小时
+Step 6300: Discriminator Loss = 0.2966, Generator Loss = 4.1901, D Fake Score = -4.4556, D Real Score = 1.5683, D Val Score = -2.5046
+进度: 6300/500000 | 平均单步耗时: 0.1260 秒/步 | 剩余时间预估: 17.27 小时
