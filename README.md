@@ -1,7 +1,7 @@
 # FSPR-GAN
 This repository is the official PyTorch implementation of the paper "FSPR-GAN: A StyleGAN2-Based Framework for Few-Shot 3D Reconstruction of Porous Media", which addresses the issues of discriminator overfitting, unstable training and mode collapse in traditional generative adversarial networks under limited-data conditions, and can generate high-fidelity 128<sup>3</sup> voxel porous media 3D models.
 # Authors
-Yang Chen<sup>a,b</sup>, Wuwen Yao<sup>a,b,c,[]</sup>, Xin Liu<sup>a,b</sup>, Jirong Yi<sup>d</sup>, Chuang Deng<sup>c</sup>
+Yang Chen<sup>a,b</sup>, Wuwen Yao<sup>a,b,c,*</sup>, Xin Liu<sup>a,b</sup>, Jirong Yi<sup>d</sup>, Chuang Deng<sup>c</sup>
 <sup>a</sup> Key Laboratory of Safety Control of Bridge Engineering, Ministry of Education, Changsha University of Science and Technology, Changsha, 410114, Hunan, China 
 <sup>b</sup> School of Civil and Environmental Engineering, Changsha University of Science and Technology, Changsha, 410114, China 
 <sup>c</sup> Department of Mechanical Engineering, University of Manitoba, Winnipeg, R3T 5V6, Manitoba, Canada
